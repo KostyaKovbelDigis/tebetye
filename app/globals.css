@@ -1,0 +1,94 @@
+@import '@coreui/coreui/dist/css/coreui.min.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #ECEDEF;
+}
+
+.sidebar {
+  background-color: #333B4E;
+  max-width: 251px;
+  padding: 16px;
+}
+
+.sidebar-logo {
+  margin-bottom: 66px;
+}
+
+.sidebar-nav {
+  padding: 15px;
+}
+
+.page-container {
+  padding: 36px 30px 0 30px;
+}
+
+.content-container {
+  background: white;
+  padding: 50px;
+}
+
+.content-header {
+  margin-bottom: 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content-title {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.content-banner {
+  background: #1DE9E1;
+  padding: 20px 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.banner-text {
+  font-size: 20px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  max-width: 100%;
+  gap: 40px;
+}
+
+.grid-item {
+  background: #1DE9E1;
+  padding: 60px 24px 12px 60px;
+  display: flex;
+  flex-direction: column;
+}
+
+.grid-item img {
+  align-self: flex-start;
+}
+
+.grid-item-text {
+  font-size: 32px;
+  align-self: flex-end;
+}
+
+.products-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.products-table th, .products-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.products-table th {
+  background-color: #f2f2f2;
+}
